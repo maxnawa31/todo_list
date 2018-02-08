@@ -1,0 +1,96 @@
+body{
+  background-image: url("brooklynbridge.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  text-align:center;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  font-size:45px;
+
+
+  -webkit-animation: fade-letter 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fade-letter 2s; /* Firefox < 16 */
+       -ms-animation: fade-letter 2s; /* Internet Explorer */
+        -o-animation: fade-letter 2s; /* Opera < 12.1 */
+           animation: fade-letter 2s;
+}
+
+@keyframes fade-letter{
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+.main-page{
+  margin:4rem auto;
+	padding:2rem 3rem 3rem;
+	max-width:500px;
+	background:black;
+	color:white;
+	/*box-shadow:-20px -20px 0px 0px #F7F0E5;*/
+  /*background: linear-gradient(100deg, #02D5FA, black 40%, black);*/
+  background:rgba(700, 159, 154, 0.8);
+
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 1s; /* Firefox < 16 */
+       -ms-animation: fadein 1s; /* Internet Explorer */
+        -o-animation: fadein 1s; /* Opera < 12.1 */
+           animation: fadein 1s;
+
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#form{
+  text-align:center;
+  outline:none;
+}
+#submit-button{
+  color:black;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background:none;
+}
+.button{
+  margin: 5px;
+  color:white;
+  background-color: black;
+  border: none;
+  outline: none;
+  font-size:24px;
+}
+
+#input-text{
+height:20px;
+font-size:14pt;
+font-family: 'Permanent Marker', cursive;
+outline:none;
+}
+
+#list{
+  text-align: center;
+  list-style-position: inside;
+}
+
+#list > li{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  display:flex;
+	margin:0 2rem 4px;
+	padding:1.1rem 3rem;
+	justify-content:space-between;
+	align-items:center;
+	background:black;
+  color:white;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+       -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+           animation: fadein 2s;
+}
